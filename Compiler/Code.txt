@@ -1,0 +1,16 @@
+PROGRAM BASICS
+ VAR
+ X,Y,A,B,C,Z,I,J,M,N 
+ BEGIN
+ READ(X,A,Z,B);
+
+ FOR I := A+B TO X+Y DO
+BEGIN
+ C := X+ Z;
+ C := C * B;
+ Z := A*B+C*Y;
+ A := X+B;
+ WRITE(A,C,Z)
+ END;
+ READ(X);
+END.
